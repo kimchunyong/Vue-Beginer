@@ -26,17 +26,17 @@
         <h1 :class="className">1</h1>
         <button :class="{ 'is-loading ': isLoading }" @click="toggleClass">click me</button>
         <button @click="method" :title="title">hover over me</button>
-        <button></button>
     </div>
-    <script src=" https://unpkg.com/vue@2.5.16/dist/vue.js "></script>
+    <script src=" https://unpkg.com/vue@2.5.16/dist/vue.js ">
+        11
+    </script>
     <script>
         var app = new Vue({
             el: '#root',
             data: {
                 title: 'Now the title being set through Javascript',
                 className: 'color-red',
-                isLoading: false
-                    //this Loading = true;
+                isLoading: false,
 
             },
             methods: {
