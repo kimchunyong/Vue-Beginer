@@ -14,6 +14,8 @@ Doit Vue.js
 - Setup Vue Devtools
 - Lists
 - Attribute adn Class Binding
+
+
 - The Need for Computed Properties
 - Components 101
 - Components Within Components
